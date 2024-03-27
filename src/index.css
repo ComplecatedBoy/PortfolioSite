@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+   font-family: "Roboto", sans-serif;
+}
+html{
+   scroll-behavior: smooth;
+}
+body{
+   overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+   width:10px;
+   background-color:#000000e3;
+}
+::-webkit-scrollbar-thumb{
+   background-color: #aecbd7;
+}
