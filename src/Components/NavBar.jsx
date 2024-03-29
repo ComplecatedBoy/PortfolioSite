@@ -25,7 +25,7 @@ function NavBar({setIsSideBar}) {
             <a href="#contact" className="hover:bg-black/10 p-2 px-6 active:bg-black/10">Contact</a>
           </div>
           <div className="ms-8">
-          <Button variant="outlined" href="" size="large" color="primary">Resume</Button>
+          <Button variant="outlined" href="https://drive.google.com/file/d/1i8e7fKb2otDBsx5NPkx-px37NUVxoyzk/view?usp=sharing" size="large" color="primary">Resume</Button>
           </div>
         </div>
       </div>
