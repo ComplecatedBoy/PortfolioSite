@@ -14,7 +14,8 @@ import { IoLogoJavascript } from "react-icons/io";
 
 function Projects() {
   return (
-    <div id="project"
+    <div
+      id="project"
       className="pt-16 md:pb-16 text-center min-h-screen bg-gradient-to-l
        from-[#679db492]
        to-[#b0c7d334]"
@@ -35,7 +36,10 @@ function Projects() {
             to-[#b0c7d334]"
           >
             <div className=" w-full md:w-1/2 h-full rounded-5px">
-              <a href="#" className="rounded-[5px] opacity-[.9] hover:opacity-[1]">
+              <a
+                href="#"
+                className="rounded-[5px] opacity-[.9] hover:opacity-[1]"
+              >
                 <video
                   src="/satyamChatApp.mp4"
                   className="rounded-[5px] w-full h-full"
@@ -79,13 +83,19 @@ function Projects() {
               <div className="flex flex-row gap-4 text-xl mt-2 lg:mt-4 font-bold  text-white">
                 <button className="bg-red-500 hover:bg-red-400 px-4 py-1 tracking-widest">
                   {" "}
-                  <a href="https://github.com/ComplecatedBoy/Chat-App-Mern.git" className="flex gap-2 items-center">
+                  <a
+                    href="https://github.com/ComplecatedBoy/Chat-App-Mern.git"
+                    className="flex gap-2 items-center"
+                  >
                     <LuGithub></LuGithub>CODE
                   </a>
                 </button>
                 <button className="bg-red-500 hover:bg-red-400 px-4 py-1 tracking-widest">
                   {" "}
-                  <a href="https://satyam-chat-app-mern.onrender.com/" className="flex gap-2 items-center">
+                  <a
+                    href="https://satyam-chat-app-mern.onrender.com/"
+                    className="flex gap-2 items-center"
+                  >
                     <IoOpenOutline></IoOpenOutline>LIVE
                   </a>
                 </button>
@@ -144,13 +154,19 @@ function Projects() {
               <div className="flex flex-row gap-4 text-xl mt-2 lg:mt-4 font-bold  text-white">
                 <button className="bg-red-500 hover:bg-red-400 px-4 py-1 tracking-widest">
                   {" "}
-                  <a href="https://github.com/ComplecatedBoy/WanderLustProject.git" className="flex gap-2 items-center">
+                  <a
+                    href="https://github.com/ComplecatedBoy/WanderLustProject.git"
+                    className="flex gap-2 items-center"
+                  >
                     <LuGithub></LuGithub>CODE
                   </a>
                 </button>
                 <button className="bg-red-500 hover:bg-red-400 px-4 py-1 tracking-widest">
                   {" "}
-                  <a href="https://wanderlust-ikxg.onrender.com/listings" className="flex gap-2 items-center">
+                  <a
+                    href="https://wanderlust-ikxg.onrender.com/listings"
+                    className="flex gap-2 items-center"
+                  >
                     <IoOpenOutline></IoOpenOutline>LIVE
                   </a>
                 </button>
@@ -180,7 +196,10 @@ function Projects() {
                   Simon Game : test your memory
                 </div>
                 <div className="text-[#112A46DD] mt-3 md:text-[1rem] text-justify">
-                 An engaging electronic memory challenge, presenting players with complex patterns of lights and sounds to replicate, enhancing memory skills and providing hours of enjoyable entertainment.
+                  An engaging electronic memory challenge, presenting players
+                  with complex patterns of lights and sounds to replicate,
+                  enhancing memory skills and providing hours of enjoyable
+                  entertainment.
                 </div>
                 <div className="flex mt-3 flex-wrap gap-1">
                   <span className="border border-[#0f0012] px-2 rounded-[2px] shadow bg-[#e0cbc1] flex items-center gap-2">
@@ -198,13 +217,19 @@ function Projects() {
               <div className="flex flex-row gap-4 text-xl mt-2 lg:mt-4 font-bold  text-white">
                 <button className="bg-red-500 hover:bg-red-400 px-4 py-1 tracking-widest">
                   {" "}
-                  <a href="https://github.com/ComplecatedBoy/Simon-Says-Game.git" className="flex gap-2 items-center">
+                  <a
+                    href="https://github.com/ComplecatedBoy/Simon-Says-Game.git"
+                    className="flex gap-2 items-center"
+                  >
                     <LuGithub></LuGithub>CODE
                   </a>
                 </button>
                 <button className="bg-red-500 hover:bg-red-400 px-4 py-1 tracking-widest">
                   {" "}
-                  <a href="https://complecatedboy.github.io/Simon-Says-Game/" className="flex gap-2 items-center">
+                  <a
+                    href="https://complecatedboy.github.io/Simon-Says-Game/"
+                    className="flex gap-2 items-center"
+                  >
                     <IoOpenOutline></IoOpenOutline>LIVE
                   </a>
                 </button>
