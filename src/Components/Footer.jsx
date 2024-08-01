@@ -14,21 +14,21 @@ function Footer() {
           <a
             href="https://github.com/ComplecatedBoy"
             target="_blank"
-            className="bg-[#323232] p-3  rounded-full hover:bg-[#444444]  transition hover:translate-y-[-5px]  "
+            className="bg-[#323232] p-2  rounded-full hover:bg-[#444444]  transition hover:translate-y-[-5px]  "
           >
             <LiaGithub />
           </a>
           <a
             href="https://www.instagram.com/111s.atyam/"
             target="_blank"
-            className="bg-[#323232] p-3  rounded-full hover:bg-[#444444]  transition hover:translate-y-[-5px]  "
+            className="bg-[#323232] p-2 rounded-full hover:bg-[#444444]  transition hover:translate-y-[-5px]  "
           >
             <LiaInstagram />
           </a>
           <a
             href="https://www.linkedin.com/in/satyamkumarshah/"
             target="_blank"
-            className="bg-[#323232] p-3  rounded-full hover:bg-[#444444]  transition  hover:translate-y-[-5px] "
+            className="bg-[#323232] p-2  rounded-full hover:bg-[#444444]  transition  hover:translate-y-[-5px] "
           >
             <LiaLinkedin />
           </a>

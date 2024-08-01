@@ -37,7 +37,7 @@ function Projects() {
           >
             <div className=" w-full md:w-1/2 h-full rounded-5px">
               <a
-                href="#"
+                href="https://satyam-chat-app-mern.onrender.com/"
                 className="rounded-[5px] opacity-[.9] hover:opacity-[1]"
               >
                 <video
@@ -54,7 +54,7 @@ function Projects() {
                 <div className="font-bold mt-2 md:mt-1   text-[22px] text-[#112A46ee] underline">
                   Chats : real time chat Application
                 </div>
-                <div className="text-[#112A46DD] mt-3 md:text-[1rem] text-justify">
+                <div className="text-[#112A46DD] lg:font-mono mt-3 md:text-[1rem] text-justify">
                   Chat application with seamless communication. Powered by
                   React.js for a sleek user interface and Node.js for robust
                   backend functionality, featuring real-time messaging and
@@ -109,7 +109,10 @@ function Projects() {
             to-[#b0c7d334]"
           >
             <div className=" md:order-2 md:ms-2 w-full md:w-1/2 h-full rounded-5px">
-              <a href="#" className="rounded-[5px]">
+              <a
+                href="https://wanderlust-ikxg.onrender.com/listings"
+                className="rounded-[5px]"
+              >
                 <video
                   src="/WanderLust-TourAndTravels.mp4"
                   className="rounded-[5px] w-full h-full opacity-[.9] hover:opacity-[1]"
@@ -125,7 +128,7 @@ function Projects() {
                 <div className="font-bold mt-2 md:mt-1  text-[22px] text-[#112A46ee] underline">
                   WanderLust : book your destination.
                 </div>
-                <div className="text-[#112A46DD] mt-3 md:text-[1rem] text-justify">
+                <div className="text-[#112A46DD] mt-3 lg:font-mono md:text-[1rem] text-justify">
                   Proudly deployed on Render, our dynamic platform offers
                   seamless user experiences, fortified by robust authentication
                   and streamlined RESTful operations on listings. Users can
@@ -181,7 +184,10 @@ function Projects() {
             to-[#b0c7d334]"
           >
             <div className=" w-full md:w-1/2 h-full rounded-5px">
-              <a href="#" className="rounded-[5px]">
+              <a
+                href="https://complecatedboy.github.io/Simon-Says-Game/"
+                className="rounded-[5px]"
+              >
                 <video
                   src="/SimonGame.mp4"
                   className="rounded-[5px] w-full h-full opacity-[.9] hover:opacity-[1]"
@@ -197,7 +203,7 @@ function Projects() {
                 <div className="font-bold mt-2 md:mt-1  text-[22px] text-[#112A46ee] underline">
                   Simon Game : test your memory
                 </div>
-                <div className="text-[#112A46DD] mt-3 md:text-[1rem] text-justify">
+                <div className="text-[#112A46DD] mt-3 lg:font-mono md:text-[1rem] text-justify">
                   An engaging electronic memory challenge, presenting players
                   with complex patterns of lights and sounds to replicate,
                   enhancing memory skills and providing hours of enjoyable

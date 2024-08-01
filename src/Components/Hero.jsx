@@ -15,7 +15,7 @@ function Hero() {
     >
       <div className="p-4 pt-2 md:pt-8 lg:pt-16 max-w-[1200px] mx-auto w-fulltext-white h-full">
         <div className="flex text-left flex-col md:flex-row justify-center items-center">
-          <div className="w-48 h-48 md:w-96 md:h-96  rounded-full overflow-hidden border-4 border-[#679db4] me-8">
+          <div className="w-64 h-64 md:w-96 md:h-96  rounded-full overflow-hidden border-4 border-[#679db4] me-8">
             <img
               src="./satyam.png"
               alt=""
@@ -34,7 +34,7 @@ function Hero() {
               />
             </h1>
 
-            <div className="max-w-[700px] leading-[1.25rem] mt-4 font-normal text-black/50 text-normal md:text-xl md:m-4 text-justify">
+            <div className="max-w-[700px] leading-[1.25rem] mt-4 font-mono font-normal text-black/60 text-normal md:text-xl md:m-4 text-justify">
               A Result-Oriented Web Developer building and managing Websites and
               Web Applications that leads to the success of the overall product.
             </div>
