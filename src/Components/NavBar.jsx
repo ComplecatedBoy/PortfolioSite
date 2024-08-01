@@ -7,9 +7,9 @@ function NavBar({ setIsSideBar }) {
     <>
       <div
         style={{ zIndex: "2" }}
-        className=" fixed top-0 w-screen bg-stone-100 bg-[#e9f0f3] px-4 pe-8 p-2 shadow-md"
+        className=" fixed top-0 w-screen bg-[#e9f0f3] px-2 md:px-4 pe-8 p-4 shadow-md"
       >
-        <div className="max-w-[1200px] mx-auto flex items-center justify-between">
+        <div className="max-w-[1200px] ml-4 md:mx-auto flex items-center justify-between">
           <div className="font-bold flex items-center flex-1 justify-between text-2xl">
             <div className="px-3">Satyam Kumar Shah</div>
             <div

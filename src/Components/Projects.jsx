@@ -1,4 +1,3 @@
-import React from "react";
 import { SiSocketdotio } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
@@ -31,9 +30,10 @@ function Projects() {
         <div className="m-[10px]">
           <div
             id=""
-            className="max-w-[1000px]  flex flex-col md:flex-row p-4 mx-auto my-4 md:my-16 shadow-lg rounded-[15px] w-full bg-[#b0c7d3] bg-gradient-to-l
+            className="max-w-[1200px]  flex flex-col md:flex-row p-4 lg:p-8 mx-auto my-4 md:my-16 shadow-lg rounded-[15px] w-full bg-[#b0c7d3] bg-gradient-to-l
             from-[#679db492]
-            to-[#b0c7d334]"
+            to-[#b0c7d334]
+          "
           >
             <div className=" w-full md:w-1/2 h-full rounded-5px">
               <a
@@ -96,7 +96,7 @@ function Projects() {
                     href="https://satyam-chat-app-mern.onrender.com/"
                     className="flex gap-2 items-center"
                   >
-                    <IoOpenOutline></IoOpenOutline>LIVE
+                    <IoOpenOutline></IoOpenOutline>VISIT
                   </a>
                 </button>
               </div>
@@ -104,7 +104,7 @@ function Projects() {
           </div>
           <div
             id=""
-            className="max-w-[1000px] flex flex-col md:flex-row p-4 mx-auto my-4 md:my-16 shadow-lg rounded-[15px] w-full bg-[#b0c7d3] bg-gradient-to-l
+            className="max-w-[12000px] flex flex-col md:flex-row p-4 lg:p-8 mx-auto my-4 md:my-16 shadow-lg rounded-[15px] w-full bg-[#b0c7d3] bg-gradient-to-l
             from-[#679db492]
             to-[#b0c7d334]"
           >
@@ -115,6 +115,7 @@ function Projects() {
                   className="rounded-[5px] w-full h-full opacity-[.9] hover:opacity-[1]"
                   onMouseOver={(e) => e.target.play()}
                   loop
+                  muted
                   onMouseOut={(e) => e.target.pause()}
                 ></video>
               </a>
@@ -167,7 +168,7 @@ function Projects() {
                     href="https://wanderlust-ikxg.onrender.com/listings"
                     className="flex gap-2 items-center"
                   >
-                    <IoOpenOutline></IoOpenOutline>LIVE
+                    <IoOpenOutline></IoOpenOutline>VISIT
                   </a>
                 </button>
               </div>
@@ -175,7 +176,7 @@ function Projects() {
           </div>
           <div
             id=""
-            className="max-w-[1000px] flex flex-col md:flex-row p-4 mx-auto my-4 md:my-16 shadow-lg rounded-[15px] w-full bg-[#b0c7d3] bg-gradient-to-l
+            className="max-w-[1200px] flex flex-col md:flex-row p-4 lg:p-8 mx-auto my-4 md:my-16 shadow-lg rounded-[15px] w-full bg-[#b0c7d3] bg-gradient-to-l
             from-[#679db492]
             to-[#b0c7d334]"
           >
@@ -186,6 +187,7 @@ function Projects() {
                   className="rounded-[5px] w-full h-full opacity-[.9] hover:opacity-[1]"
                   onMouseOver={(e) => e.target.play()}
                   loop
+                  muted
                   onMouseOut={(e) => e.target.pause()}
                 ></video>
               </a>
@@ -230,7 +232,7 @@ function Projects() {
                     href="https://complecatedboy.github.io/Simon-Says-Game/"
                     className="flex gap-2 items-center"
                   >
-                    <IoOpenOutline></IoOpenOutline>LIVE
+                    <IoOpenOutline></IoOpenOutline>VISIT
                   </a>
                 </button>
               </div>

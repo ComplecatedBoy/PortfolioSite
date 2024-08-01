@@ -1,9 +1,7 @@
-import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { Button } from "@mui/material";
 import { RiContactsLine } from "react-icons/ri";
 import { GrProjects } from "react-icons/gr";
-import { FaForward } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa6";
 import Link from "./Link.jsx";
 
@@ -11,7 +9,7 @@ function Hero() {
   return (
     <div
       id="home"
-      className="pt-16 w-screen h-screen text-center bg-gradient-to-l
+      className="pt-24 w-screen text-center bg-gradient-to-l
     from-[#679db492]
     to-[#b0c7d334]"
     >

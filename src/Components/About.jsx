@@ -1,5 +1,3 @@
-import React from "react";
-
 function About() {
   const skills = [
     "REACT JS",
@@ -42,11 +40,11 @@ function About() {
           <div className="flex flex-col items-center md:items-start md:flex-row justify-center gap-8 h-full">
             <div className="flex-1 flex-col mt-4 md:mt-16">
               <h1 className="font-semibold text-2xl md:text-3xl text-stone-800/90 hidden md:block mb-8">
-                Let's Get to know me!
+                Let&#39;s Get to know me!
               </h1>
               <p className="text-normal md:text-lg text-stone-700/80 text-justify">
                 {" "}
-                Hey! I'm{" "}
+                Hey! I&#39;m{" "}
                 <span className=" font-bold underline text-red-800">
                   Satyam Kumar Shah
                 </span>
@@ -67,7 +65,7 @@ function About() {
                 <span className="text-blue-900 font-bold underline">
                   MERN (MongoDB, Express.js, React.js, Node.js) stack
                 </span>
-                . Let's bring your projects to life together!
+                . Let&#39;s bring your projects to life together!
               </p>
             </div>
             <div className="flex-1 flex-col hidden lg:visible mt-1 md:mt-16">
@@ -77,7 +75,10 @@ function About() {
               <div className="flex flex-row flex-wrap">
                 {skills.map((skill) => {
                   return (
-                    <div className="text-sm md:text-normal px-2 py-1  border-2 text-black/60 border-stone-700 me-2 my-1 hover:bg-black hover:text-stone-100 hover:border-transparent">
+                    <div
+                      key={skill}
+                      className="text-sm md:text-normal px-2 py-1  border-2 text-black/60 border-stone-700 me-2 my-1 hover:bg-black hover:text-stone-100 hover:border-transparent"
+                    >
                       {skill}
                     </div>
                   );
@@ -86,7 +87,10 @@ function About() {
               <div className="flex flex-row flex-wrap">
                 {others.map((skill) => {
                   return (
-                    <div className=" text-sm md:text-normal px-2 py-1 text-black/70 border-2 border-stone-700 me-2 my-1 hover:bg-black hover:text-stone-100 hover:border-transparent">
+                    <div
+                      key={skill}
+                      className=" text-sm md:text-normal px-2 py-1 text-black/70 border-2 border-stone-700 me-2 my-1 hover:bg-black hover:text-stone-100 hover:border-transparent"
+                    >
                       {skill}
                     </div>
                   );
